@@ -5,5 +5,9 @@ j:
 	cd autojump_$(jversion);bash install.sh
 	rm -rf autojump_$(jversion)*;
 pip:
-	apt-get install python-setuptools -y
+	apt-get -y install python-setuptools
 	easy_install pip
+git:
+	git config --global user.name "easonlin"
+	git config --global user.email "smartsgy@gmail.com"
+	git config --global core.editor vim
