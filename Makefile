@@ -11,3 +11,5 @@ git:
 	git config --global user.name "easonlin"
 	git config --global user.email "smartsgy@gmail.com"
 	git config --global core.editor vim
+ssh:
+	ufw allow OpenSSH
