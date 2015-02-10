@@ -1,4 +1,3 @@
-PIWIK_PW?='1111'
 apache:
 	sudo apt-get install apache2 -y
 	ifconfig eth0 | grep inet | awk '{print $2}'
